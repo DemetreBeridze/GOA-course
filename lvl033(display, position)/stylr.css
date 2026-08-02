@@ -1,0 +1,76 @@
+                                           /* display: flex */
+
+/*  --------- justify-content - (Y ღერძი) ------- */
+/*  justify-content: flex-start;    დასაწყისში (ტექსტის ან შვილი ელემენტის განლაგება დასაწყისში)
+    justify-content: flex-end;      ბოლოში   (ტექსტის ან შვილი ელემენტის განლაგება ბოლოში)
+    justify-content: center;        ცენტრში 
+    justify-content: space-between; თანაბარი დაშორება, კიდეებზე მიბმული 
+    justify-content: space-around;  თანაბარი სივრცე გარშემო 
+    justify-content: space-evenly;  სრულიად თანაბარი სივრცეები */ 
+
+    /*  --------- align-items/self - (X ღერძი) -------  */
+    /*     align-items მოქმედებს ყველა flex ელემენტზე.  */
+    /*     align-self მოქმედებს მხოლოდ ერთ კონკრეტულ flex ელემენტზე. (ვუწერთ child ელემენტს)*/ 
+/* 
+    align-items: flex-start;  ზედა მხარეს 
+    align-items: flex-end;    ქვედა მხარეს 
+    align-items: center;      ცენტრში 
+    align-items: stretch;     გაწელავს კონტეინერის ზომაზე 
+    align-items: baseline;    ტექსტის ხაზზე გასწორება
+*/
+
+/*  --------- flex-direction: ----- */
+/* 
+    flex-direction: row;            მარცხნიდან მარჯვნივ
+    flex-direction: row-reverese;   მარჯვნიდან მარცხნივ
+    flex-direction: column;         ზემოდან ქვემოთ
+    flex-direction: column-reverse; ქვემოდან ზემოთ
+*/
+
+/*  ------------ flex-wrap: -------- */
+/* 
+    flex-wrap: nowrap;         ერთ ხაზზე (default)
+    flex-wrap: wrap;           ხალ ხაზზე გადადის
+    flex-wrap: wrap-reverse;   ახალ ხაზზე, შებრუნებული მიმართულებით
+*/
+
+/*  --------- flex-flow (არის მოკლე ჩანაწერი (shorthand)-------- */
+/* 
+    flex-flow: row wrap;
+    flex-flow: column nowrap;
+    flex-flow: row-reverse wrap-reverse;
+*/
+
+/*  -------------- align-content ------------ */
+/* 
+    align-content: stretch;            ხაზები იჭიმება
+    align-content: flex-start;         ზემოთ
+    align-content: flex-end;           ქვემოთ
+    align-content: center;             ცენტრში
+    align-content: space-between;      ხაზებს შორის დაშორება
+    align-content: space-around;       გარშემო სივრცე
+    align-content: space-evenly;       თანაბარი სივრცე ყველგან
+*/
+
+/* ------order -------- */
+/* 
+    order CSS Flexbox-ში გამოიყენება ელემენტების გამოჩენის რიგის შესაცვლელად, HTML კოდის შეცვლის გარეშე.
+    ----------------------------------- ვუწერთ child ელემენტს ----------------------------------------
+*/
+
+
+/*  ------------------ POSITION ------------------ */
+/*position      - CSS თვისება, რომელიც მართავს ელემენტის მდებარეობას ეკრანზე და გვაძლევს უფლებას,
+ კოორდინატებით (top, bottom, left, right) შევცვალოთ მისი სტანდარტული ადგილი. */
+
+/* position: Relative     -   ელემენტი ინარჩუნებს თავის ადგილს ნაკადში, მაგრამ შეუძლია ჩაიჩოჩოს 
+საკუთარი საწყისი პოზიციის მიმართ. ის ასევე ხდება ორიენტირი (ღუზა) absolute შვილებისთვის.(ვუწერთ მშობელ ელემენტს) */
+
+/* position: Absolute      -   ელემენტი მთლიანად ვარდება HTML-ის ნაკადიდან და მოძრაობს მისი უახლოესი 
+relative მშობლის მიმართ (სხვა ელემენტები მის ადგილს იკავებენ(ვუწერთ შვილ ელემენტს)).*/
+
+/* position: Fixed      - ელემენტი ვარდება ნაკადიდან და მაგრდება პირდაპირ ბრაუზერის ფანჯარაზე (Viewport).
+ საიტის სქროლვისას ის ეკრანზე მყარად, ერთ ადგილას დგას.*/
+
+/* position: Sticky      - ელემენტი თავიდან იქცევა ჩვეულებრივად, მაგრამ სქროლვისას, განსაზღვრულ ზღვრამდე 
+მიღწევის შემდეგ, „ეწებება“ ეკრანს თავისი მშობლის საზღვრებში.*/

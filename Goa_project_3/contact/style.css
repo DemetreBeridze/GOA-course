@@ -1,0 +1,382 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.17vw;
+}
+/* -----------header------------ */
+#div1{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#div1_1{
+    width: 37%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div1_2{
+    width: 5%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div1_3{
+    width: 10%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 150px;
+}
+#div1_p1{
+    font-size: 1.17vw;
+    color: white;
+}
+#div1_p2{
+    font-size: 1.17vw;
+    color: white;
+    text-decoration: underline;
+
+}
+#div1_p3{
+    font-size: 1.17vw;
+    color: white;
+}
+#arrow {
+    display: inline-block;
+    transform: rotate(90deg); /* ატრიალებს 90 გრადუსით მარჯვნივ, ანუ ქვემოთ */
+}
+#div2{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    border-bottom: 1px solid;
+    position: relative;
+}
+#div2_1{
+    width: 20%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#div2_p1{
+    font-size: 2vw;
+}
+#div2_2{
+    width: 20%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div2_2_1{
+    width: 24%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3vw; 
+}
+.a2_2_1{
+    text-decoration: none;
+    color: black;
+}
+#div2_3{
+    width: 25%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#div2_3_2{
+    width: 60%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input1{
+    width: 90%;
+    height: 35px;
+    border: none;
+    background-color: #F4F4F4;
+}
+.div2_3_2{
+    width:10%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    width: 120%;
+}
+/* -------------- main -------------- */
+main{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+#div3{
+    height: 70%;
+    padding-top: 5%;
+    font-size: 1.5vw;
+}
+#div4{
+    margin-top:20px;
+    width: 100%;
+    height: 37vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+#div4_1{
+    width: 30%;
+    height: 35vw;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#div4_1_1{
+    width: 90%;
+    height: 15vw;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#div4_1_1_1{
+    width: 95%;
+    height: 5vw;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.b4_1{
+    padding-left: 10px;
+    font-size: 1.5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#div4_1_1_2{
+    width: 95%;
+    height: 8vw;
+    margin-top: 5px;
+}
+.img2{
+    width: 20%;
+}
+#div4_1_2{
+    width: 90%;
+    height: 20vw;
+    margin-top: 5px;
+}
+#div4_1_2_1{
+    width: 95%;
+    height: 5vw;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+#div4_1_2_2{
+    width: 95%;
+    height: 9vw;
+    margin-top: 5px;
+}
+#div4_2{
+    width: 66%;
+    height: 35vw;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#div4_2_1{
+    width: 99%;
+    height: 5vw;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.div4_2_1_1{
+    width: 32%;
+    height: 4vw;
+}
+.input4_2{
+    width: 98%;
+    height: 3vw;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+    border: none;
+}
+.input4_2::placeholder{
+    font-size: 1.2vw;
+    padding-left: 5px;
+}
+#div4_2_2{
+    width: 99%;
+    height: 20vw;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#input4_2_2{
+    width: 98%;
+    height: 19vw;
+    background-color: #F4F4F4;
+    border: none;
+}
+#input4_2_2::placeholder{
+    font-size: 1.5vw;
+    padding-left: 5px;
+}
+#div4_2_3{
+    width: 99%;
+    height: 8vw;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#div4_2_3_1{
+    width: 30%;
+    height: 4vw;
+}
+#button4_2_3{
+    background-color: #DB4444;
+    width: 100%;
+    height:3.5vw ;
+    font-size: 1.3vw;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+/* ------------footer---------- */
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 60px 4% 20px 4%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex; 
+}
+
+.footer-col {
+    width: 20%;
+    padding: 0 10px;
+}
+
+.footer-col h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-col p {
+    font-size: 14px;
+    color: #f5f5f5;
+    margin-bottom: 15px;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 12px;
+}
+
+.footer-col ul li a {
+    color: #f5f5f5;
+    font-size: 14px;
+}
+
+.subscribe-box {
+    display: block;
+    margin-top: 15px;
+    position: relative;
+    max-width: 200px;
+}
+
+.subscribe-box input {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 14px;
+}
+.subscribe-box button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: none;
+    border: none;
+    color: #ffffff;
+}
+
+.download-text {
+    font-size: 12px;
+    color: #a0a0a0;
+    margin-bottom: 10px;
+}
+
+.download-apps {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.qr-code {
+    background-color: #ffffff;
+    padding: 4px;
+    margin-right: 10px;
+}
+
+.app-buttons img {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* სოციალური ქსელები */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #ffffff;
+    margin-right: 15px;
+    font-size: 18px;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #1a1a1a;
+    color: #555555;
+    font-size: 14px;
+}
+

@@ -1,0 +1,33 @@
+#form{
+    border: 2px black;
+    border-radius: 15px;
+}
+
+body{
+    text-align: center;
+}
+input{
+    height: 100px;
+    width: 300px;
+}
+button{
+    background-color: rgb(118, 118, 255);
+    width: 150px;
+    height: 35px;
+}
+
+/* 
+disc → შავი წრე
+circle → ცარიელი წრე
+square → კვადრატი
+lower-alpha → პატარა ასოები (a,b,c…)
+upper-roman → რომაული რიცხვები (I, II, III…)
+*/
+
+table{
+    border: 2px;
+    
+}
+th{
+    border: 3px black;
+}

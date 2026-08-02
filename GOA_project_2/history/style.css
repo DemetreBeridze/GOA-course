@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header */
+#main_heading{
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: wheat;
+}
+header{
+    margin-right: -150px;
+    margin-left: -150px;
+    background-color: #023E8A;
+}
+#web_logo{
+    width: 17%;
+}
+#web_logo1{
+    width: 10%;
+    display: inline-block;
+    display: flex;
+    justify-content: left;
+    padding: 10px 0px 0px 10px;
+}
+/* navigation style */
+#navigation{
+    border-bottom: 1px solid #0077B6;
+    border-top: 1px solid #0077B6;
+    border-radius: 3px;
+    padding: 10px 0px 10px 0px;
+    font-size: large;
+    background-color: #0096C7;
+}
+a{
+    text-decoration: none;
+    color: wheat;
+}
+/* a - functions (hover) */
+a:hover{
+    font-size: 35px;
+    transition: 0.5s;
+    color: black;
+}
+a:active{
+    font-size: 35px;
+    color: white;
+}
+a:hover{
+    font-size: 35px;
+    transition: 0.5s;
+}
+#a1{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding: 0px 5px 0px 5px;
+}
+#a2{
+    border-right: 1px solid white;
+    padding: 0px 5px 0px 5px;
+}
+#a3{
+    border-right: 1px solid white;
+    padding: 0px 5px 0px 5px;
+}
+#a4{
+    border-right: 1px solid white;
+    padding: 0px 5px 0px 5px;
+}
+#a5{
+    border-right: 1px solid white;
+    padding: 0px 5px 0px 5px;
+}
+/* body */
+body{
+    margin: 0px;
+    padding-left: 150px;
+    padding-right: 150px;
+    pad: 10px;
+}
+/* main */
+main{
+    background-color:#E9ECEF;
+    padding: 30px;
+}
+header{
+    text-align: center;
+}
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+#hitory{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    display: inline-block;
+    border: 1px double;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 10px;
+    background-image: url(./download.png);
+    color: white;
+    padding: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+#hitory:hover{
+    height: 200px;
+    transition: 1s;
+}
+#champions{
+    text-align: left;
+}
+#champs_of_21{
+    text-align: center;
+    font-size: 35px;
+}
+.WC_heading{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+/* videoebis zoma (width) */
+#vid_1,#vid_2,#vid_3,#vid_4,#vid_5,#vid_6{
+    width: 80%;
+}
+#vid_1:hover{
+    width: 100%;
+    transition: 1.5s;
+}
+#vid_2:hover{
+    width: 100%;
+    transition: 1.5s;
+}
+#vid_3:hover{
+    width: 100%;
+    transition: 1.5s;
+}
+#vid_4:hover{
+    width: 100%;
+    transition: 1.5s;
+}
+#vid_5:hover{
+    width: 100%;
+    transition: 1.5s;
+}
+#vid_6:hover{
+    width: 100%;
+    transition: 1.5s;
+}
+
+/* videoebis adgilmdebareoba da margini  */
+.WC_video{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+.WC_list{
+    padding: 5px 5px 5px 50px;
+    font-size: 15px;
+    font-family: monospace ;
+}
+.WC_photo1{
+    width: 95%;
+}
+.WC_photo{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.WC_p{
+    padding: 15px 90px 5px 90px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* footer */
+footer{
+    background-color: #0077B6;
+    margin-right: -150px;
+    margin-left: -150px;
+}
+#WC_sticker1{
+    width: 17%;
+    padding: 5px 0px 0px 5px;
+}
+#WC_sticker{
+    display: flex;
+    display: inline-block;
+}
+.footer_p{
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#footer_h2{
+    text-align: left;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 0px 0px 5px;
+}
+#creators{
+    text-align: left;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}

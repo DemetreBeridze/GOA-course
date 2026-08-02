@@ -1,0 +1,30 @@
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#MAINDIV{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div1{
+    width: 400px;
+    height: 424px;
+    border: 1px solid;
+}
+#div2{
+    width: 400px;
+    height: 424px;
+    border: 1px solid;
+}
+#img{
+    width: 100%;
+}
+#img2{
+    width: 80%;
+    padding-top: 50px;
+    padding-left: 50px;
+}

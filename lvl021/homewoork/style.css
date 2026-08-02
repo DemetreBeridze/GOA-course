@@ -1,0 +1,32 @@
+/* 
+1) Inline CSS - iwereba HTML is failshi (tviton lineshi , <style> atributis gamoyenebit)
+2) Internal CSS - iwereba HTML is failSi (<Head> - shi )
+3) External CSS - iwereba iseve rogorc Internal CSS , magram caqlke CSS is failshi, da shemdeb vukashirebt HTML is fails)
+ */
+
+#container1{
+    background-color: brown;
+    color: blue;
+    font-size: small;
+}
+
+#h1_1{
+    text-align: center
+}
+
+#p1_1{
+    background-color: black;
+    color: yellow;
+}
+
+img{
+    width: 250px;
+    height: 470px;
+    border: 3px double black;
+}
+
+body{
+    background-color: bisque;
+}
+
+

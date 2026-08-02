@@ -1,0 +1,252 @@
+/* ------2------- */
+#container1{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border: 2px solid;
+}
+.div1_1{
+    border: 1px solid;
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+#div1_1{
+    border: 1px solid;
+    background-color: rgb(61, 12, 107);
+    flex-grow: 2;
+}
+/* --------3------- */
+#container2{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border: 2px solid;
+}
+.div2_1{
+    border: 1px solid;
+    background-color: brown;
+    flex-grow: 0;
+}
+#div2_1{
+    border: 1px solid;
+    background-color: aqua;
+    flex-grow: 1;
+}
+/* ---------4-------- */
+/* flex-grow viyenebt ahvili elementebistvis. vutitebt mshobbeli(container) elementis ra nawili daikavos.
+ rac ufro did ricxvs mivutitebt mit gaizrdeba shvili elementis zoma */
+
+ /* -------5----- */
+ /* Flex-shrink - igie rac flex-grow, ubralod rac ufro didi ricxvs mivutitebs
+  flex-shrinks mit ufro sheikumsheba elementi */
+
+  /* --------6-------- */
+  /* Flex-driection - azlevs mimartulebas shvil elementebs (colum, row, row-reverse da column-reverse)*/
+#container6{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    width: 300px;
+    height: 300px;
+}
+.div6{
+    border: 1px solid;
+    background-color: brown;
+    width: 100px;
+    height: 150px;
+}
+/* ------6_2----- */
+#container6_2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    width: 300px;
+    height: 300px;
+}
+.div6_2{
+    border: 1px solid;
+    background-color: brown;
+    width: 100px;
+    height: 150px;
+}
+/* ---6_3 */
+#container6_3{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid;
+    width: 300px;
+    height: 300px;
+}
+.div6_3{
+    border: 1px solid;
+    background-color: brown;
+    width: 100px;
+    height: 150px;
+}
+/* flex-wrap - gansazgvravs mshobel elemntshi chasmuli shvili elementebis axal xazze chamotanas(im shemtxvevashi tu isini ert xazze ver daetevian) */
+/* gap - qmnis dashorebas flex elementebs shoris */
+
+#container{
+    display: flex;
+    border: 1px solid;
+    width: 800px;
+    height: 350px;
+}
+#right{
+    border: 1px solid;
+    background-color: chartreuse;
+    flex-grow: 1;
+    margin: 10px;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 10px;
+}
+#div8_1{
+    border: 1px solid;
+    background-color: chartreuse;
+    flex-grow: 1;
+    margin: 0px 0px 10px 0px;
+}
+#div8_2{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+#div8_2_1{
+    border: 1px solid;
+    background-color: chartreuse;
+    margin: 0px 5px 0px 0px;
+    flex-grow: 1;
+}
+#div8_2_2{
+    border: 1px solid;
+    background-color: chartreuse;
+    margin: 0px 0px 0px 5px;
+    flex-grow: 1;
+}
+#div8_3{
+    border: 1px solid;
+    flex-grow: 1;
+    background-color: chartreuse;
+    margin: 10px 0px 0px 0px;
+}
+/* ---------9------------ */
+#container9{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    margin: 10px;
+    height: 500px;
+    width: 600px;
+    padding: 10px;
+}
+#top1{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    padding: 5px;
+}
+#top1_1{
+    flex-grow: 1;
+    background-color: chartreuse;
+    margin-right: 10px;
+    border: 2px solid;
+}
+#top1_2{
+    flex-grow: 5;
+    background-color: chartreuse;
+    border: 2px solid;
+}
+#top1_3{
+    flex-grow: 1;
+    background-color: chartreuse;
+    margin-left: 10px;
+    border: 2px solid;
+}
+/*  */
+#top2{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    padding: 5px;
+}
+#top2_1{
+    flex-grow: 4;
+    background-color: chartreuse;
+    margin-right: 10px;
+    border: 2px solid;
+}
+#top2_2{
+    flex-grow: 1;
+    background-color: chartreuse;
+    border: 2px solid;
+}
+#top2_3{
+    flex-grow: 3;
+    background-color: chartreuse;
+    margin-left: 10px;
+    border: 2px solid;
+}
+/*  */
+#top3{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    padding: 5px;
+}
+#top3_1{
+    flex-grow: 1;
+    background-color: chartreuse;
+    margin-right: 10px;
+    border: 2px solid;
+}
+#top3_2{
+    flex-grow: 3;
+    background-color: chartreuse;
+    border: 2px solid;
+}
+#top3_3{
+    flex-grow: 6;
+    background-color: chartreuse;
+    margin-left: 10px;
+    border: 2px solid;
+}
+/*  */
+#top4{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    padding: 5px;
+}
+#top4_1{
+    flex-grow: 3;
+    background-color: chartreuse;
+    margin-right: 10px;
+    border: 2px solid;
+}
+#top4_2{
+    flex-grow: 1;
+    background-color: chartreuse;
+    border: 2px solid;
+}
+#top4_3{
+    flex-grow: 3;
+    background-color: chartreuse;
+    margin-left: 10px;
+    border: 2px solid;
+}
+#top4_4{
+    flex-grow: 1;
+    background-color: chartreuse;
+    margin-left: 10px;
+    border: 2px solid;
+}
+#top4_5{
+    flex-grow: 3;
+    background-color: chartreuse;
+    margin-left: 10px;
+    border: 2px solid;
+}

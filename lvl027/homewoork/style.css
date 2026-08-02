@@ -1,0 +1,50 @@
+#movies{
+    list-style-type: upper-roman;
+    list-style-position: outside;
+}
+
+#countries{
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+#days{
+    list-style-type:lower-latin;
+}
+
+#clothes{
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+#clothes1{
+    background-color: aquamarine;
+}
+
+#clothes2{
+    background-color: rgb(208, 246, 170);
+}
+
+#clothes3{
+    background-color: rgb(184, 172, 230);
+}
+
+#clothes4{
+    background-color: rgb(238, 160, 160);
+}
+
+/* 
+border-radius is shegvizlia bordris kutxeebi movumgvalot, mad gadaecema 4 argumenti titoeuli kutxistvis
+*/
+
+#pic1{
+    width: 15%;
+    border: 3px double black;
+    border-radius: 5px 15px 5px 15px;
+}
+
+inp{
+    
+}
+

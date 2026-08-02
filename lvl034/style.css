@@ -1,0 +1,21 @@
+#img1{
+    width: 20%;
+    position: absolute;
+    left: 230px;
+    top: 150px;
+}
+p{
+    position:relative;
+    left: 30px;
+    bottom: 20px;
+}
+button{
+    background-color: antiquewhite;
+    border-radius: 100%;
+    text-decoration: none;
+    color: blueviolet;
+    position: fixed;
+    right: 10px50px
+    buttoom ;
+    bottom: 25px;
+}

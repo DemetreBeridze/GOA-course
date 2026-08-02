@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* body */
+body{
+    background-color: #CAF0F8;
+}
+/* main */
+#main_div{
+    text-align: center;
+    display: inline-block;
+    border: 3px solid;
+    border-radius: 10px;
+    width: 500px;
+    height: 330px;
+    overflow: hidden;
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 50%;
+    margin-top: 10%;
+}
+/* confirm style */
+#confirm{
+    padding: 3px;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 20%;
+    font-size:medium;
+    margin: 5px;
+}
+#confirm:active{
+    width: 95px;
+    height: 27px;
+}
+/* label style */
+label{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* input style */
+input{
+    width: 67%;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 4px;
+}
+/* confitm style */
+#confirm:hover{
+    background-color: #0096C7;
+}
+#confirm:active{
+    background-color: #48CAE4;
+}
+

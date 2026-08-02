@@ -1,0 +1,25 @@
+table{
+    border: 2px solid #40B049;
+    border-radius: 10px;
+    border-collapse: separate;
+    height: 200px;
+    width: 400px;
+
+}
+
+th{
+    background-color: green;
+}
+
+tr{
+    background-color:rgb(226, 249, 223) ;
+    text-align: center;
+    color: black;
+}
+
+tr:nth-child(2) {
+  background-color: #979797;
+  text-align: center;
+  color: rgb(14, 48, 14);
+
+}

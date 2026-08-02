@@ -1,0 +1,40 @@
+#div0{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#div1{
+    width: 30%;
+    height: 40vh;
+    border: 1px solid;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: blue;
+}
+#div2{
+    width: 30%;
+    height: 40vh;
+    border: 1px solid;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: aquamarine;
+}
+@media screen and (max-width: 600px){
+    #div0{
+
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/* რესპონსივ დიზაინი (Responsive Web Design) ნიშნავს ვებსაიტის ისე აწყობას, 
+რომ ის ავტომატურად ერგებოდეს ნებისმიერი ზომის ეკრანს — იქნება ეს მობილური ტელეფონი, 
+პლანშეტი თუ დიდი მონიტორი. */
+
+/*  max-width აწესებს ზედა ზღვარს (მაქსიმუმს), ამაზე მეტად საიტი ვეგარ გაიზრდება.(თუ გაიზრდება... ვუთითებთ პარამეტრებს)
+    min-width აწესებს ქვედა ზღვარს (მინიმუმს)  ამაზე მეტად საიტი ვეგარ შევიწროვდება.(თუ შევიწროვდება... ვუთითებთ პარამეტრებს) */

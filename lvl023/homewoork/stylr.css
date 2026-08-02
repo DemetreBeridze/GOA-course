@@ -1,0 +1,161 @@
+#h1_1{
+    color: purple;
+}
+
+#h2_1{
+    color: rgb(127, 25, 138);
+}
+
+#h3_1{
+    color: #6c117a;
+}
+
+#button_1{
+    background-color: green;
+    border: 2px solid rgb(107, 74, 12);
+}
+
+#button_2{
+    background-color: green;
+    border: 2px solid rgb(107, 74, 12);
+}
+
+#button_3{
+    background-color: green;
+    border: 2px solid rgb(107, 74, 12);
+}
+
+#button_4{
+    background-color: rgb(118, 10, 10);
+    border: 1px double rgb(10, 10, 82);
+}
+
+#button_5{
+    background-color: rgb(118, 10, 10);
+    border: 1px double rgb(10, 10, 82);
+}
+
+#img_1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+}
+
+#img_2{
+    width: 150px;
+    height: 150px;
+    border: 3px dashed blue;
+}
+
+#img_3{
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+}
+
+#img_4{
+    width: 250px;
+    height: 250px;
+    border: 2px double green;
+}
+
+#img_5{
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(117, 85, 26);
+}
+
+#container{
+    width: 200px;
+    height: 200px;
+    background-color: #00f;
+}
+
+#child{
+    width: 50%;
+    height: 50%;
+    background-color: black;
+}
+
+#div_1{
+    height: 300px;
+    width: 300px;
+    background-color: #6c117a;
+    font-size: 35px;
+}
+
+#div_2{
+    background-color: azure;
+    font-family: monospace;
+}
+
+#p_1{
+    font-size: 70%;
+}
+
+#p_2{
+    text-decoration: underline red;
+}
+
+#p_3{
+    text-decoration: overline blue;
+}
+
+#p_4{
+    text-decoration: underline dotted;
+}
+
+#div_3{
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#p_4{
+    text-decoration: underline dotted;
+}
+
+#p_5{
+    text-decoration: line-through wavy;
+}
+
+#p_6{
+    text-decoration: underline double;
+}
+
+#p_7{
+    text-decoration: overline dashed;
+}
+
+#p_8{
+    text-decoration: underline solid;
+}
+
+#div_4{
+    background-color: blanchedalmond;
+}
+
+#strong{
+    text-decoration: underline wavy yellow 3px;
+}
+
+#em{
+    text-decoration: overline dotted;
+}
+
+#p_10{
+    text-decoration: overline double;
+}
+
+#h1{
+    text-decoration: underline solid;
+}
+
+#h3{
+    text-shadow: 2px 2px 5px;
+}
+
+#h4{
+    text-decoration: underline brown dotted 3px;
+}
+
+

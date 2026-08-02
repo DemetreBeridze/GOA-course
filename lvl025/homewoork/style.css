@@ -1,0 +1,42 @@
+/* 
+text-shadow
+text-alight
+text-decoration
+font-size
+font-family
+hover - mausis gadatareba
+actiove - mausis daklikeb a(rodesac dklikebisas xels ar vushvebst)
+visited - rodesac linkze gadavdivart
+link - rodesac linkzw jer ar vart gadasuli
+Pseudo-Selector (ფსევდო-სელექტორი) არის CSS-ის სპეციალური სელექტორი,
+ რომელიც გამოიყენება ელემენტის განსაკუთრებული მდგომარეობის ან ნაწილის
+  სტილიზაციისთვის, მაშინაც კი როცა HTML-ში ამისთვის ცალკე კლასი ან ელემენტი არ არსებობს.
+*/
+
+
+nav{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    color: blue;
+    font-size: larger;
+    font-weight: 500;
+}
+a:active{
+    color: blueviolet;
+    font-size: x-small;
+}
+a:active{
+    color: yellow;
+
+}
+
+.contact:hover{
+    text-decoration: underline dotted brown;
+    font-size: xx-large
+}

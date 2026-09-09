@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playwrite+DE+SAS:wght@100..400&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden; /* x ღერძს გარეტ რაიემე ელემნტი თუ გავა (მაგ დიდი ფოტოები) დაუმალება და საიტი აღარ გადაისქროლება */
+}
+body {
+    background-color: #00111C;
+    margin-top: 75px;
+}
+a, h1, p, span {
+    font-family: Montserrat;
+}
+/* nav bar */
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 21, 35, 0.85);
+    backdrop-filter:blur(10px);  /* backgroun ს ბლარავს */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;  /* top,butoon , left,right */
+}
+#img1 {
+    width: 45px;
+    border-radius: 12px;
+}
+.nav_bar {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+#input1 {
+    height: 38px;
+    width: 160px;
+    border-radius: 30px;
+    border: none;
+    padding-left: 15px;
+    opacity: 0.7;
+}
+#select1 {
+    width: 60px;
+    height: 30px;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+.option1 {
+    background-color: #003A61;
+    color: white;
+}
+/*maindiv */
+#maindiv1 {
+    width: 100%;
+    min-height: 90vh;
+    background-image:  url('/lvl052/homework/img_vid/the_odyssey_matt_damon_ancient_greek_odysseus-wallpaper-3840x2160.jpg');
+    background-size: cover; /* მშობელ ელემენტს მთლიანად ფარავს */
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 20px;
+}
+.maindiv1_1 {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.img3 {
+    width: 48%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.img3:hover {
+    transform: scale(1.05);
+}
+/* movies section */
+.h1_1 {
+    color: white;
+    font-size: 36px;
+    padding: 20px 20px 10px 20px;
+}
+#p0 {
+    font-size: 20px;
+}
+.movies_1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0 20px;
+}
+.movies1_1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 18%;  /* თვადაპირველლო ბაზისური ზომა სანამ ელემენტები განაწილებას დაიწყებენ მშობელ ელემენტშ */
+    max-width: 20%;
+    padding-bottom: 20px;
+}
+.img4 {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.4s ease-in-out;
+}
+.img4:hover {
+    transform: scale(1.05);
+}
+.movies_p_1 {
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.movies_p_2, .movies_p_3 {
+    font-size: 12px;
+    color: white;
+    opacity: 0.5;
+}
+/* newest & masterpiece */
+#newest {
+    background-color: #001523;
+    padding-bottom: 20px;
+}
+#newest_h1, #masterpiece_h1 {
+    color: white;
+    font-size: 36px;
+    padding: 20px;
+}
+/* tickets BUTTON */
+#tickets_button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: #f7a823;
+    cursor: pointer;
+}
+/* download the APP */
+#download_app {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F4511E;
+    padding: 30px 20px;
+    gap: 20px;
+}
+#download_app_1 {
+    max-width: 400px;
+}
+#app_h1 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 10px;
+}
+#app_p1 {
+    font-size: 14px;
+    color: white;
+}
+#download_app_2 {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+#download_app_2_1, #download_app_2_2 {
+    border-radius: 10px;
+    padding: 10px 18px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.img5 {
+    width: 22px;
+    margin-right: 8px;
+}
+/* footerr */
+footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 20px;
+    background-color: #001523;
+    gap: 20px;
+}
+.footerdiv_1 {
+    display: flex;
+    flex-direction: column;
+}
+#footerdiv_1_1 {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+#img6 {
+    width: 35px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+.a1 {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+.a2 {
+    margin: 3px 0;
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+    font-size: 13px;
+}
+#footer_p {
+    color: white;
+    font-size: 12px;
+    padding: 15px 20px;
+    background-color: #001523;
+}
+
+/* responsive */
+@media(max-width:780px){
+    #select1{
+        display: none;
+    }
+    #input1{
+        display: none;
+    }
+}
+@media (max-width: 900px) {
+    .maindiv1_1{
+        display: none;
+    }
+    .movies1_1 {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 30%;
+        max-width: 33.33%;
+    }
+
+    #maindiv1 {
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        margin-top: 60px;
+    }
+
+    nav {
+        justify-content: space-around;
+        padding: 8px 5px;
+    }
+
+    .nav_bar {
+        font-size: 12px;
+    }
+
+    #input1, #select1 {
+        display: none;
+    }
+
+    .maindiv1_1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img3 {
+        width: 100%;
+        max-width: 250px;
+        margin-bottom: 10px;
+    }
+
+    .movies1_1 {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 45%;
+        max-width: 50%;
+    }
+
+    .h1_1, #newest_h1, #masterpiece_h1 {
+        font-size: 24px;
+    }
+}

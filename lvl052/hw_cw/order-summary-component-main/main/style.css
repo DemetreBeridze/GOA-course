@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=Playwrite+DE+SAS:wght@100..400&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* მნიშვნელოვანია ზომების სწორი გამოთვლისთვის */
+}
+p{
+    font-family: Red Hat Display;
+}
+h1{
+    font-family: Red Hat Display;
+}
+a{
+    font-family: Red Hat Display;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#maindiv{
+    border: 0.5px solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 450px;
+}
+#img1{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 40px;
+}
+h1{
+    margin-bottom: 20px;
+}
+#p1{
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-bottom: 30px;
+}
+#div2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    margin-bottom: 30px;
+}
+#img2{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+#a1{
+    margin-left: auto;
+    padding-right: 10px;
+}
+#button1{
+    width: 80%;
+    border-radius: 9px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+}
+#button2{
+    width: 80%;
+    border-radius: 9px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+    border: none;
+}
+@media (max-width:375px){
+    #maindiv{
+        width: 85%;
+    }
+}

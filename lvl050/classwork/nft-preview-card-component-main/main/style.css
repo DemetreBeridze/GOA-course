@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=Playwrite+DE+SAS:wght@100..400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    font-family: Outfit;
+}
+h1{
+    font-family: Outfit;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+#maindiv{
+    width: 320px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: hsl(216, 50%, 16%);
+}
+#img1{
+    width: 100%;
+    border-radius: 15px;
+}
+#h1_1{
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+}
+#h1_1:hover{
+    color: hsl(178, 100%, 50%);
+}
+#p1{
+    color: hsl(215, 51%, 70%);
+    opacity: 0.5;
+}
+#p2{
+    color:hsl(178, 100%, 50%) ;
+}
+#img3{
+    margin-right: 5px;
+}
+#img4{
+    margin-right: 5px;
+    width: 15%;
+}
+#p3{
+    color: white;
+    opacity: 0.5;
+}
+#div1_1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+hr{
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;                    
+    height: 1px;
+    background-color: #2e3d4f;
+}
+#div1_2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#p4{
+    margin-left: 5px;
+    color: white;
+    opacity: 0.5;
+}
+#b1{
+    margin-left: 5px;
+    color: white;
+    opacity: 1.5;
+}
+#b1:hover{
+    color: hsl(178, 100%, 50%);
+}
+#img2{
+    width: 15%;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+@media (max-width: 375px){
+    #maindiv{
+        width: 80%;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background-color: hsl(216, 50%, 16%);
+}
+}
